@@ -1,0 +1,69 @@
+
+/* ==============================================
+ Pricing 
+=============================================== */
+.pricing_block {
+	margin: 40px 0;
+}
+.pricing {
+	text-align: center;
+	border: 1px solid #CCC;
+	padding: 0 0 10px;
+	border-radius: 5px;
+	background: #fff;
+	margin-right: 10px;
+	margin-bottom: 20px;
+}
+.pricing .head {
+	height: 130px;
+	background: #222;
+	color: #FFF;
+	padding: 10px 0 0;
+	border-radius: 5px 5px 0 0;
+	transition: all .4s ease;
+	-moz-transition: all .4s ease;
+	-webkit-transition: all .4s ease;
+	-ms-transition: all .4s ease;
+	-o-transition: all .4s ease;
+}
+.price_active .head{
+	background:#CCC;
+}
+.pricing .price {
+	height: 100px;
+	width: 100px;
+	margin: 0 auto;
+	background: #FFF;
+	border-radius: 50px;
+	line-height: 90px;
+	border: 5px solid #FFF;
+	box-shadow: 0 0 1px #222 inset;
+	position: relative;
+	top: -50px;
+	font-size: 18px;
+	font-weight: bold;
+	transition: color .4s ease, border .4s ease;
+	-moz-transition: color .4s ease;
+	-webkit-transition: color .4s ease;
+	-ms-transition: color .4s ease;
+	-o-transition: color .4s ease;
+}
+.pricing .button, .pricing ul {
+	top: -30px;
+	position: relative;
+}
+.pricing ul {
+	clear: both;
+	margin-top: 20px;
+	padding: 20px 0 0;
+}
+.pricing ul li {
+	line-height: 35px;
+	border-bottom: 1px groove #666;
+	margin: 0 40px;
+}
+.pricing .btn-default {
+	width: 130px;
+	margin-top: -40px;
+	font-family: 'Raleway', sans-serif;
+}
